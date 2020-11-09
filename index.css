@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.stopwatch{ 
+    width: 100vw;
+    position: relative;
+    right:500px;
+    top: 100px;  
+}
+
+.stopwatchcontent ul{
+    display: inline-flex;
+   position: relative;
+    margin-top: 2rem;
+    margin-left: 50rem;
+}
+
+.stopwatchcontent ul li{
+    list-style: none;
+}
+
+.Stopwatch-component{
+    
+    font-size:8rem;
+    font-weight:15rem ;
+}
+
+.Stopwatch-component-cent{
+    font-size:8.0rem ;
+    font-weight:15rem ;
+}
+
+.btn{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 62rem;
+    
+}
+
+.button{
+    padding:15px ;
+    font-size: 25px;
+    font-family: cursive ;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: blue;
+    color:whitesmoke;
+}
+
+.button:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 768px){
+    .stopwatch{ 
+        width: 100vw;
+        position: relative;
+        right:720px;
+        top: 200px;
+    }
+
+    .stopwatchcontent ul{
+        display: inline-flex;
+        position: relative;
+        margin-top: 2rem;
+        margin-right:6rem;
+    }
+
+    .stopwatchcontent ul li{
+        list-style: none;
+    }
+
+    .Stopwatch-component{
+        
+        font-size:5rem;
+        font-weight:10rem ;
+    }
+
+    .Stopwatch-component-cent{
+        font-size:5.0rem ;
+        font-weight:15rem ;
+    }
+
+    .btn{
+        display: flex;
+        position: relative;
+        margin-top: 50px;
+        margin-left: 55rem;    
+    }
+
+    .button{
+        padding:15px ;
+        font-size: 25px;
+        font-family: cursive ;
+        margin: 0 10px;
+        border-radius: 50%;
+        background-color: blue;
+        color:whitesmoke;
+    }
+
+    .button:focus {
+        outline: none;
+    }
+}
